@@ -7,7 +7,7 @@
     ```sh
     make
     ```
-    <button onclick="navigator.clipboard.writeText('make')">Copy</button>
+    <button onclick="navigator.clipboard.writeText('make')"></button>
 
     This will create a `./bin` directory containing both the server and client executable files.
 
@@ -16,14 +16,14 @@
     ```sh
     ./bin/server
     ```
-    <button onclick="navigator.clipboard.writeText('./bin/server')">Copy</button>
+    <button onclick="navigator.clipboard.writeText('./bin/server')"></button>
 
 3. **Open a new terminal tab or window, navigate to the project folder, and run the client:**
 
     ```sh
     ./bin/client
     ```
-    <button onclick="navigator.clipboard.writeText('./bin/client')">Copy</button>
+    <button onclick="navigator.clipboard.writeText('./bin/client')"></button>
 
     You will see a message from the server: "You have connected to the server successfully."  
     Both the server and client will terminate immediately after the connection.
