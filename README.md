@@ -10,10 +10,9 @@
     - You will see a message from the server: "You have connected to the server successfully."
     - Both the server and client will terminate immediately after the connection.
 
-**Note:**  
+### **Note:**  
 Ensure that you have the necessary permissions to execute the binaries. If you encounter permission issues, you may need to run `chmod +x ./bin/server ./bin/client`.
 
--- 
 
 ## **TCPclient**
 
