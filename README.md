@@ -1,20 +1,43 @@
 # web_server_c
-
 ---
 ## **How to Run the Server and Client**
 
-1. Compile both the server and client by running `make`.
-    - This will create a `./bin` directory containing both the server and client executable files.
-2. Start the server first by running `./bin/server` from your project directory.
-3. Open a new terminal tab or window, navigate to the base folder containing this project, and run `./bin/client`.
-    - You will see a message from the server: "You have connected to the server successfully."
-    - Both the server and client will terminate immediately after the connection.
+1. **Compile both the server and client:**
+
+    ```sh
+    make
+    ```
+    <button onclick="navigator.clipboard.writeText('make')">Copy</button>
+
+    This will create a `./bin` directory containing both the server and client executable files.
+
+2. **Start the server:**
+
+    ```sh
+    ./bin/server
+    ```
+    <button onclick="navigator.clipboard.writeText('./bin/server')">Copy</button>
+
+3. **Open a new terminal tab or window, navigate to the project folder, and run the client:**
+
+    ```sh
+    ./bin/client
+    ```
+    <button onclick="navigator.clipboard.writeText('./bin/client')">Copy</button>
+
+    You will see a message from the server: "You have connected to the server successfully."  
+    Both the server and client will terminate immediately after the connection.
 
 ### **Note:**  
-Ensure that you have the necessary permissions to execute the binaries. If you encounter permission issues, you may need to run `chmod +x ./bin/server ./bin/client`.
+If you encounter permission issues, make the binaries executable:
+
+```sh
+chmod +x ./bin/server ./bin/client
+```
+<button onclick="navigator.clipboard.writeText('chmod +x ./bin/server ./bin/client')">Copy</button>
 
 
-## **TCPclient**
+## [**TCPclient**](./src/TCPclient.c)
 
 - Establishes a TCP connection to a specified server IP and port.
 - Sends data to the server and receives responses.
@@ -23,7 +46,7 @@ Ensure that you have the necessary permissions to execute the binaries. If you e
 
 ---
 
-## **TCPserver**
+## [**TCPserver**](./src/TCPserver.c)
 
 - Listens for incoming TCP connections on a specified port.
 - Accepts client connections and manages data exchange.
