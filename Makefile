@@ -1,5 +1,5 @@
-CLIENT_SRC = TCPclient.c
-SERVER_SRC = TCPserver.c
+CLIENT_SRC = ./src/TCPclient.c
+SERVER_SRC = ./src/TCPserver.c
 CLIENT_BIN = bin/client
 SERVER_BIN = bin/server
 CC         = gcc

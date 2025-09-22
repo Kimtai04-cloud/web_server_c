@@ -9,7 +9,7 @@
 
 int main ()
 {
-    char server_msg[256] = "You have connected to the server 123445353443";
+    char server_msg[256] = "You have connected to the server successfully";
     int server_d = socket(AF_INET, SOCK_STREAM, 0);
 
     struct sockaddr_in server_address;
