@@ -1,0 +1,36 @@
+{
+  "name": "web_server_c",
+  "version": "1.0.0",
+  "description": "TCPserver implemented in c that uses proxy to communicate to the browser",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node proxy/proxy.mjs ./bin/server",
+    "dev": "nodemon proxy/proxy.mjs ./bin/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimtai04-cloud/web_server_c.git"
+  },
+  "keywords": [
+    "server",
+    "socket",
+    "tcp",
+    "websocket",
+    "proxy"
+  ],
+  "author": "caleb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kimtai04-cloud/web_server_c/issues"
+  },
+  "homepage": "https://github.com/Kimtai04-cloud/web_server_c#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ws": "^8.18.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}
