@@ -1,5 +1,20 @@
 # web_server_c
 
+---
+## **How to Run the Server and Client**
+
+1. Compile both the server and client by running `make`.
+    - This will create a `./bin` directory containing both the server and client executable files.
+2. Start the server first by running `./bin/server` from your project directory.
+3. Open a new terminal tab or window, navigate to the base folder containing this project, and run `./bin/client`.
+    - You will see a message from the server: "You have connected to the server successfully."
+    - Both the server and client will terminate immediately after the connection.
+
+**Note:**  
+Ensure that you have the necessary permissions to execute the binaries. If you encounter permission issues, you may need to run `chmod +x ./bin/server ./bin/client`.
+
+-- 
+
 ## **TCPclient**
 
 - Establishes a TCP connection to a specified server IP and port.
